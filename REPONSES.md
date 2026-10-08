@@ -1,6 +1,9 @@
 # Reponse au question de comprehension
 
-## 1. @SpringBootApplication regroupe en meme temps @EnableAutoConfiguration, @ComponentScan, @Configuration
+## 1. @SpringBootApplication regroupe en meme temps
+- @EnableAutoConfiguration : active l'autoconfiguration de spring boot
+- @ComponentScan : determine quel package scanner pour detecter les composant spring
+- @Configuration : marque la classe comme source de definition de beans spring
 
 ## 2. C'est le mécanisme par lequel Spring Boot crée et configure des beans 
 
